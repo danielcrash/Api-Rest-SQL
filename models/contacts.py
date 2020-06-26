@@ -6,24 +6,24 @@ class ContactsModel(database.Model):
 
     contact_id = database.Column(database.Integer, primary_key=True)
     name = database.Column(database.String(80))
-    job = database.Column(database.String(80))
-    age = database.Column(database.Integer)
-    city = database.Column(database.String(80))
+    channel = database.Column(database.String(80))
+    value = database.Column(database.String(80))
+    obs = database.Column(database.String(80))
 
-    def __init__(self, contact_id, name, job, age, city):
+    def __init__(self, contact_id, name, channel, value, obs):
         self.contact_id = contact_id
         self.name = name
-        self.job = job
-        self.age = age
-        self.city = city
+        self.channel = channel
+        self.value = value
+        self.obs = obs
 
     def parse_json(self):
         return {
             'contact_id': self.contact_id,
             'name': self.name,
-            'job': self.job,
-            'age': self.age,
-            'city': self.city
+            'channel': self.channel,
+            'value': self.value,
+            'obs': self.obs
         }
 
     @classmethod
@@ -37,11 +37,11 @@ class ContactsModel(database.Model):
         database.session.add(self)
         database.session.commit()
 
-    def update_contact(self, name, job, age, city):
+    def update_contact(self, name, channel, value, obs):
         self.name = name
-        self.job = job
-        self.age = age
-        self.city = city
+        self.channel = channel
+        self.value = value
+        self.obs = obs
 
     def delete_contact(self):
         database.session.delete(self)
