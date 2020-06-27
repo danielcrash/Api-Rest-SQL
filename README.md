@@ -51,6 +51,8 @@ Finalmente para ter acesso aos demais endpoints da aplicação, basta preencher 
 
 - ```DEL /contacts/<contact_id>```:  endpoint para deletar contato apenas referindo o ```<contact_id>``` no seu path.
 
+- ```POST /logout```: endpoint para deslogar.
+
 ### Banco de dados
 Foi utilizado o banco SQLite com a biblioteca ```flask_sqlalchemy>``` no qual irá criar o banco dentro da pasta raiz da aplicação assim que registar seu primeiro login.
 
