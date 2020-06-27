@@ -20,7 +20,7 @@ Use o Postman com a url localhost exposto na porta ```5000```. Após isso, é ne
 } 
 ```
 Utilize o endpoint ```/register```para cadastrar seu login e em seguida realizar o mesmo através do endpoint ```/login```.
-Caso tenha feito tudo corredo até aqui, você obterá o token de acesso como saída:
+Caso tenha feito tudo correto até aqui, você obterá o token de acesso como saída:
 ```
 {
     "acess_token": "<hash_token>"
