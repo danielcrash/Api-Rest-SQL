@@ -58,8 +58,8 @@ Foi utilizado o banco SQLite com a biblioteca ```flask_sqlalchemy``` no qual ir�
 
 ### Ferramentas
 
- - Linguagem: Python 3.7
- - Consumo da API: Postman
- - Biblioteca: Flask & SQLite
+ - Linguagem: **Python 3.7**
+ - Consumo da API: **Postman**
+ - Biblioteca: **Flask & SQLite**
 
-autor: Daniel Nicácio
+autor: **Daniel Nicácio**
