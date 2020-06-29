@@ -30,9 +30,9 @@ Finalmente para ter acesso aos demais endpoints da aplicação, basta preencher 
 
 ### Endpoints
 
-- ```GET /users/<user_id>```: endpoint para obter todos os usuários
+- ```GET /users/<user_id>```: endpoint para obter usuários pelo ```<user_id>```.
 
-- ```DEL /users/<user_id>```: endpoint para obter um usuário
+- ```DEL /users/<user_id>```: endpoint para deletar usuários pelo ```<user_id>```.
 
 - ```GET /contacts/<contacts_id>```:  endpoint para trazer um novo usuário pelo ID.
 
