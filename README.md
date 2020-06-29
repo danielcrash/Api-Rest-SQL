@@ -34,9 +34,9 @@ Finalmente para ter acesso aos demais endpoints da aplicação, basta preencher 
 
 - ```DEL /users/<user_id>```: endpoint para deletar usuários pelo ```<user_id>```.
 
-- ```GET /contacts/<contacts_id>```:  endpoint para trazer um novo usuário pelo ID.
+- ```GET /contacts/<contacts_id>```:  endpoint para trazer um contato pelo ```<contacts_id>```.
 
-- ```GET /contacts/```:  endpoint para trazer todos os usuários no banco.
+- ```GET /contacts/```:  endpoint para trazer todos os contatos.
 
 - ```POST /contacts/<contact_id>```:  endpoint para cadastrar novo contato utilizando o ```<contact_id>``` no qual quer cadastrar com o seguinte formato json:
 ```
